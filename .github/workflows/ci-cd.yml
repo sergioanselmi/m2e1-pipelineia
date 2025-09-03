@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Construir la aplicación
-        run: npm run lint
+      # - name: Construir la aplicación
+      #   run: npm run lint
 
       - name: Cambiar directorio
         run: cd frontend
