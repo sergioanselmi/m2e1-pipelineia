@@ -24,8 +24,6 @@ jobs:
       # - name: Construir la aplicación
       #   run: npm run lint
 
-      - name: Cambiar directorio
-        run: cd frontend
   cd_job:
     runs-on: ubuntu-latest
     steps:
