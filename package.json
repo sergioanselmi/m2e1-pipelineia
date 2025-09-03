@@ -1,0 +1,27 @@
+{
+  "name": "m2e1-pipelineia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioanselmi/m2e1-pipelineia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergioanselmi/m2e1-pipelineia/issues"
+  },
+  "homepage": "https://github.com/sergioanselmi/m2e1-pipelineia#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "openai": "^5.17.0"
+  }
+}
