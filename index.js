@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('¡Hola Mundo!');
+    res.send('Servidor Express funcionando correctamente desde el PIPELINE');
 });
 
 app.listen(PORT, () => {
