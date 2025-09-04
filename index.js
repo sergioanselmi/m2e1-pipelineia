@@ -25,9 +25,9 @@ app.get('/status', (req, res) => {
 // La pregunta no debe estar vacía.
 // Usa el cliente OpenAI para obtener la respuesta del modelo "gpt-3.5-turbo"
 // Devuelve la respuesta en un JSON. Maneja correctamente los errores.
-const { OpenAIApi } = require('openai');
+const { OpenAI } = require('openai');
 
-const openai = new OpenAIApi({
+const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
 });
 
